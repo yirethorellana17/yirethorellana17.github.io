@@ -1,0 +1,39 @@
+<html>
+    
+    <head>
+        <style>
+            button {
+                background-color: #000000;
+                border: none;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 18px;
+                margin: 5px 5px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <center>
+
+<a href="javascript:switchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active"><button>home</button></a>
+<a href="javascript:switchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu"><button>about me</button></a>
+<a href="javascript:switchTab('tb_3', 'content_3');" id="tb_3" class="tabmenu"><button>portfolio</button></a>
+<a href="javascript:switchTab('tb_4', 'content_4');" id="tb_4" class="tabmenu"><button>career</button></a>
+
+</center>
+
+<!--<My Home Section>!-->
+
+<div id="content_1" class="tabcontent"> 
+    <p>my dream home</p>
+    <br><img src="images/home.jpg" width=100%>
+    
+</div> 
+
+
+<!--<My About Me Section>!-->
+
+<div id="content_2" class="tabcontent" style="display:none;">
+    <p><b><center><font size=6>About Me</font></center></b></p>
